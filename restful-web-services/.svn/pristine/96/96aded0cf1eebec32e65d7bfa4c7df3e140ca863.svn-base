@@ -1,0 +1,6 @@
+com\in10minutes\rest\webservices\restfulwebservices\RestfulWebServicesApplication.class
+com\in10minutes\rest\webservices\restfulwebservices\user\UserResource.class
+com\in10minutes\rest\webservices\restfulwebservices\helloworld\HelloWorldController.class
+com\in10minutes\rest\webservices\restfulwebservices\user\User.class
+com\in10minutes\rest\webservices\restfulwebservices\user\UserDaoService.class
+com\in10minutes\rest\webservices\restfulwebservices\helloworld\HelloWorldBean.class

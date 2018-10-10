@@ -8,5 +8,8 @@ public class RestfulWebServicesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestfulWebServicesApplication.class, args);
+		System.out.println("Hiiii");
+		System.out.println("Hello");
+		System.out.println("Hello Chinmaya");
 	}
 }

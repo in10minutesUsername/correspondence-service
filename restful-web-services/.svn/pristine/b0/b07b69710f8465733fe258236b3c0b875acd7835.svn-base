@@ -1,0 +1,4 @@
+#Created by Apache Maven 3.3.9
+version=0.0.1-SNAPSHOT
+groupId=com.in10minutes.rest.webservices
+artifactId=restful-web-services
