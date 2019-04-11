@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: diary-service
+  cloud:
+    config:
+      uri: http://localhost:8889
+      name: common,${spring.application.name}
+  profiles:
+    active: dev
+    
+    
+    
+    
+
+#DB-Configuration
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ChinuWorldDb1
+    username: postgres
+    password: rootp
+    drive-class-name: org.postgresql.Driver
+    tomcat:
+      defaultAutoCommit: true
+      initial-size: 1
+      max-active: 30
+      max-wait: 20000
+      
+jpa:
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      show_sql: true
+      format_sql: true
+      jdbc.lob.non_contextual_creation: true
+      use-new-id-generator-mappings: false
